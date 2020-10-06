@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(
+    to bottom,
+    #5d9634
+    #5d9634 50%
+    #538c2b 50%
+    #538c2b
+);
+/* The rectangle in which to repeat.
+It can be fully wide in this case */
+background-size: 100% 20px;
+}
+
+#anything {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  height: 300px;
+  width: 300px;
+  background: #fff
+}
+
+#skull {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  background: pink;
+  animation-play-state: paused;
+}
+
+#eye {
+  position: absolute;
+  left: 25px;
+  top: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #000;
+  animation-play-state: inherit;
+}
+/*
